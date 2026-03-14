@@ -43,8 +43,13 @@ client.on('error', err => logger.error('Client error:', err));
 process.on('unhandledRejection', err => logger.error('Unhandled rejection:', err));
 process.on('uncaughtException', err => { logger.error('Uncaught exception:', err); process.exit(1); });
 
-client.login(config.discord.token)
-  .then(() => logger.info('🚀 Bot đã khởi động!'))
-  .catch(err => { logger.error('Login failed:', err); process.exit(1); });
-
+if (!config.discord.token) {
+  console.error("❌ Lỗi: thiếu bot token trong config!");
+} else {
+  client.login(config.discord.token)
+    .then(() => logger.info('🚀 Bot đã khởi động!'))
+    .catch(err => {
+      console.error("❌ Không thể đăng nhập bot:", err.message);
+    });
+}
 module.exports = client;

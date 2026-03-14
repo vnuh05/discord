@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Runtime data
+logs/
+*.log
+shop.db
+shop.db-shm
+shop.db-wal
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Temporary files
+tmp_*.js
+*.tmp
+*.temp

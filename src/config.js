@@ -20,7 +20,7 @@ module.exports = {
     };
   },
   mongodb: {
-    uri: process.env.MONGODB_URI || 'mongodb://localhost:27017/discord-shop',
+    uri: process.env.MONGODB_URI,
   },
   get channels() {
     return {
@@ -46,7 +46,7 @@ module.exports = {
     };
   },
   casso: {
-    apiKey: process.env.CASSO_API_KEY || "AK_CS.0291f4801f3a11f1a3ca79c2f1d864cb.qr14zRl7kkM1os0b5FBMKqYMx3bkpyUklfUTXGSq7lkcMnYDns4qeDFgZDatW591YjVksGRw",
+    apiKey: process.env.CASSO_API_KEY,
     bankAccount: process.env.BANK_ACCOUNT_NUMBER,
     bankName: process.env.BANK_NAME,
     bankId: process.env.BANK_ID,
