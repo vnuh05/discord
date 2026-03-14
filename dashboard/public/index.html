@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>ShopBot — Admin Dashboard</title>
+  <link rel="stylesheet" href="/style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+<!-- ════════════════════════════
+     LOGIN
+════════════════════════════ -->
+<div id="loginScreen" class="login-screen">
+  <div class="login-card">
+    <div class="login-eyebrow">
+      <i class="fas fa-shield-halved"></i> Khu vực quản trị
+    </div>
+    <div class="login-logo">
+      <h1>ShopBot Admin</h1>
+      <p>Đăng nhập để truy cập dashboard quản lý</p>
+    </div>
+    <div class="form-group">
+      <label>Tài khoản</label>
+      <input type="text" id="loginUser" placeholder="Nhập username…" autocomplete="off"/>
+    </div>
+    <div class="form-group">
+      <label>Mật khẩu</label>
+      <input type="password" id="loginPass" placeholder="Nhập mật khẩu…"/>
+    </div>
+    <div id="loginError" class="error-msg hidden">
+      <i class="fas fa-circle-exclamation"></i> <span></span>
+    </div>
+    <button class="btn-login" onclick="doLogin()">
+      <i class="fas fa-arrow-right-to-bracket"></i> &nbsp;Đăng Nhập
+    </button>
+  </div>
+</div>
+
+<!-- ════════════════════════════
+     APP
+════════════════════════════ -->
+<div id="app" class="app hidden">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="sidebar-logo">
+      <div class="logo-row">
+        <div class="logo-icon"><i class="fas fa-robot"></i></div>
+        <div>
+          <div class="logo-name">ShopBot</div>
+          <div class="logo-tag">Admin Panel</div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="sidebar-nav">
+      <div class="nav-group-label">Tổng quan</div>
+      <a class="nav-item active" onclick="showPage('overview')" data-page="overview">
+        <div class="nav-icon"><i class="fas fa-chart-line"></i></div>
+        Dashboard
+      </a>
+
+      <div class="nav-group-label">Cửa hàng</div>
+      <a class="nav-item" onclick="showPage('accounts')" data-page="accounts">
+        <div class="nav-icon"><i class="fas fa-layer-group"></i></div>
+        Quản lý Acc
+      </a>
+      <a class="nav-item" onclick="showPage('orders')" data-page="orders">
+        <div class="nav-icon"><i class="fas fa-bag-shopping"></i></div>
+        Đơn Hàng
+      </a>
+
+      <div class="nav-group-label">Người dùng</div>
+      <a class="nav-item" onclick="showPage('users')" data-page="users">
+        <div class="nav-icon"><i class="fas fa-users"></i></div>
+        Khách Hàng
+      </a>
+      <a class="nav-item" onclick="showPage('tickets')" data-page="tickets">
+        <div class="nav-icon"><i class="fas fa-ticket"></i></div>
+        Tickets
+        <span class="nav-badge" id="sidebarTicketCount"></span>
+      </a>
+
+      <div class="nav-group-label">Nhân sự</div>
+      <a class="nav-item" onclick="showPage('staff')" data-page="staff">
+        <div class="nav-icon"><i class="fas fa-user-tie"></i></div>
+        CSKH & Lương
+      </a>
+
+      <div class="nav-group-label">Hệ thống</div>
+      <a class="nav-item" onclick="showPage('settings')" data-page="settings">
+        <div class="nav-icon"><i class="fas fa-gear"></i></div>
+        Cài Đặt
+      </a>
+    </nav>
+
+    <div class="sidebar-user">
+      <div class="user-avatar" id="userAvatarChar">A</div>
+      <div>
+        <div class="user-name" id="sidebarUsername">Admin</div>
+        <div class="user-role">Quản trị viên</div>
+      </div>
+      <button class="btn-logout-icon" onclick="doLogout()" title="Đăng xuất">
+        <i class="fas fa-right-from-bracket"></i>
+      </button>
+    </div>
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <main class="main-content">
+    <header class="top-bar">
+      <div class="page-title" id="pageTitle">Dashboard</div>
+      <div class="top-bar-right">
+        <div class="online-pill">
+          <span class="online-dot"></span>
+          Bot đang chạy
+        </div>
+        <div class="admin-pill"><i class="fas fa-crown"></i> &nbsp;Admin</div>
+      </div>
+    </header>
+
+    <!-- ══ OVERVIEW ══ -->
+    <div id="page-overview" class="page active">
+      <div class="stats-grid">
+        <div class="stat-card c-gold">
+          <div class="stat-glow"></div>
+          <div class="stat-label"><i class="fas fa-coins"></i> &nbsp;Doanh Thu</div>
+          <div class="stat-value" id="stat-total-revenue">—</div>
+          <div class="stat-sub">Tổng tất cả thời gian</div>
+        </div>
+        <div class="stat-card c-teal">
+          <div class="stat-glow"></div>
+          <div class="stat-label"><i class="fas fa-calendar"></i> &nbsp;Tháng Này</div>
+          <div class="stat-value" id="stat-monthly-revenue">—</div>
+          <div class="stat-sub">Doanh thu tháng hiện tại</div>
+        </div>
+        <div class="stat-card c-blue">
+          <div class="stat-glow"></div>
+          <div class="stat-label"><i class="fas fa-layer-group"></i> &nbsp;Acc Còn</div>
+          <div class="stat-value" id="stat-available-accs">—</div>
+          <div class="stat-sub" id="stat-total-accs-sub">/ — tổng</div>
+        </div>
+        <div class="stat-card c-purple">
+          <div class="stat-glow"></div>
+          <div class="stat-label"><i class="fas fa-bag-shopping"></i> &nbsp;Đơn Hàng</div>
+          <div class="stat-value" id="stat-total-orders">—</div>
+          <div class="stat-sub">Đã xác nhận</div>
+        </div>
+        <div class="stat-card c-green">
+          <div class="stat-glow"></div>
+          <div class="stat-label"><i class="fas fa-users"></i> &nbsp;Khách Hàng</div>
+          <div class="stat-value" id="stat-total-users">—</div>
+          <div class="stat-sub">Đã từng mua hàng</div>
+        </div>
+        <div class="stat-card c-rose">
+          <div class="stat-glow"></div>
+          <div class="stat-label"><i class="fas fa-ticket"></i> &nbsp;Ticket Mở</div>
+          <div class="stat-value" id="stat-open-tickets">—</div>
+          <div class="stat-sub">Đang chờ xử lý</div>
+        </div>
+      </div>
+
+      <div class="section-hd">
+        <div class="section-title">
+          <span class="s-dot"></span> Đơn hàng gần đây
+        </div>
+      </div>
+      <div class="table-wrapper">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Mã đơn</th><th>Khách hàng</th><th>Sản phẩm</th>
+              <th>Số tiền</th><th>Thanh toán</th><th>Trạng thái</th><th>Thời gian</th>
+            </tr>
+          </thead>
+          <tbody id="recentOrdersBody">
+            <tr><td colspan="7" class="loading"><i class="fas fa-spinner fa-spin"></i> Đang tải...</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- ══ ACCOUNTS ══ -->
+    <div id="page-accounts" class="page">
+      <div class="page-actions">
+        <button class="btn-primary" onclick="openAddAccModal()">
+          <i class="fas fa-plus"></i> Thêm Acc
+        </button>
+        <select class="filter-select" id="accStatusFilter" onchange="loadAccounts()">
+          <option value="">Tất cả trạng thái</option>
+          <option value="available">✅ Còn hàng</option>
+          <option value="sold">❌ Đã bán</option>
+          <option value="reserved">⏳ Đang giữ</option>
+        </select>
+      </div>
+      <div class="table-wrapper">
+        <table class="data-table">
+          <thead>
+            <tr><th>ID</th><th>Loại acc</th><th>Giá</th><th>Trạng thái</th><th>Người mua</th><th>Ngày thêm</th><th>Xóa</th></tr>
+          </thead>
+          <tbody id="accountsTableBody">
+            <tr><td colspan="7" class="loading"><i class="fas fa-spinner fa-spin"></i> Đang tải...</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="pagination" id="accPagination"></div>
+    </div>
+
+    <!-- ══ ORDERS ══ -->
+    <div id="page-orders" class="page">
+      <div class="table-wrapper">
+        <table class="data-table">
+          <thead>
+            <tr><th>Mã đơn</th><th>User ID</th><th>Loại acc</th><th>Số tiền</th><th>Thanh toán</th><th>CSKH</th><th>Trạng thái</th><th>Ngày</th></tr>
+          </thead>
+          <tbody id="ordersTableBody">
+            <tr><td colspan="8" class="loading"><i class="fas fa-spinner fa-spin"></i> Đang tải...</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="pagination" id="ordersPagination"></div>
+    </div>
+
+    <!-- ══ USERS ══ -->
+    <div id="page-users" class="page">
+      <div class="table-wrapper">
+        <table class="data-table">
+          <thead>
+            <tr><th>Discord ID</th><th>Username</th><th>Tổng chi tiêu</th><th>Tháng này</th><th>Tổng đơn</th><th>Tier</th></tr>
+          </thead>
+          <tbody id="usersTableBody">
+            <tr><td colspan="6" class="loading"><i class="fas fa-spinner fa-spin"></i> Đang tải...</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="pagination" id="usersPagination"></div>
+    </div>
+
+    <!-- ══ TICKETS ══ -->
+    <div id="page-tickets" class="page">
+      <div class="page-actions">
+        <select class="filter-select" id="ticketStatusFilter" onchange="loadTickets()">
+          <option value="">Tất cả trạng thái</option>
+          <option value="open">🟡 Đang mở</option>
+          <option value="assigned">🔵 Đang xử lý</option>
+          <option value="closed">⚫ Đã đóng</option>
+        </select>
+      </div>
+      <div class="table-wrapper">
+        <table class="data-table">
+          <thead>
+            <tr><th>Ticket ID</th><th>Khách hàng</th><th>CSKH phụ trách</th><th>Đơn hàng</th><th>Đánh giá</th><th>Trạng thái</th><th>Ngày tạo</th></tr>
+          </thead>
+          <tbody id="ticketsTableBody">
+            <tr><td colspan="7" class="loading"><i class="fas fa-spinner fa-spin"></i> Đang tải...</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- ══ STAFF ══ -->
+    <div id="page-staff" class="page">
+      <div class="section-hd" style="margin-bottom:1.25rem">
+        <div class="section-title">
+          <span class="s-dot"></span> Bảng lương CSKH tháng này
+        </div>
+      </div>
+      <div class="table-wrapper">
+        <table class="data-table">
+          <thead>
+            <tr><th>Hạng</th><th>Discord ID</th><th>Username</th><th>Đơn tháng</th><th>Lương tháng</th><th>Tổng đơn</th><th>Tổng lương</th></tr>
+          </thead>
+          <tbody id="staffTableBody">
+            <tr><td colspan="7" class="loading"><i class="fas fa-spinner fa-spin"></i> Đang tải...</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="salary-note">
+        <i class="fas fa-circle-info"></i>
+        Hoa hồng cố định: <strong>&nbsp;7,000đ / đơn</strong> &nbsp;·&nbsp; Bảng lương reset vào <strong>ngày 1 hàng tháng</strong>
+      </div>
+    </div>
+
+    <!-- ══ SETTINGS ══ -->
+    <div id="page-settings" class="page">
+      <div class="settings-layout">
+
+        <div class="settings-section">
+          <div class="settings-section-title"><i class="fas fa-robot"></i> Discord Bot</div>
+          <div class="settings-note"><i class="fas fa-triangle-exclamation"></i> Thay đổi Token / Client ID / Guild ID cần <strong>khởi động lại bot</strong> để có hiệu lực.</div>
+          <div class="settings-grid">
+            <div class="form-group">
+              <label>Bot Token</label>
+              <input type="password" class="settings-input" id="set-DISCORD_TOKEN" placeholder="Bot token…" autocomplete="off"/>
+            </div>
+            <div class="form-group">
+              <label>Client ID</label>
+              <input type="text" class="settings-input" id="set-CLIENT_ID" placeholder="Application Client ID…"/>
+            </div>
+            <div class="form-group">
+              <label>Guild ID</label>
+              <input type="text" class="settings-input" id="set-GUILD_ID" placeholder="Server / Guild ID…"/>
+            </div>
+          </div>
+        </div>
+
+        <div class="settings-section">
+          <div class="settings-section-title"><i class="fas fa-hashtag"></i> Channel IDs</div>
+          <div class="settings-grid">
+            <div class="form-group">
+              <label>Kênh Shop</label>
+              <input type="text" class="settings-input" id="set-SHOP_CHANNEL_ID" placeholder="Shop channel ID…"/>
+            </div>
+            <div class="form-group">
+              <label>Kênh Log</label>
+              <input type="text" class="settings-input" id="set-LOG_CHANNEL_ID" placeholder="Log channel ID…"/>
+            </div>
+            <div class="form-group">
+              <label>Thông báo CSKH</label>
+              <input type="text" class="settings-input" id="set-NOTIFY_CS_CHANNEL_ID" placeholder="Notify CS channel ID…"/>
+            </div>
+            <div class="form-group">
+              <label>Danh mục Ticket</label>
+              <input type="text" class="settings-input" id="set-TICKET_CATEGORY_ID" placeholder="Ticket category ID…"/>
+            </div>
+            <div class="form-group">
+              <label>Kênh Đánh giá</label>
+              <input type="text" class="settings-input" id="set-REVIEW_CHANNEL_ID" placeholder="Review channel ID…"/>
+            </div>
+            <div class="form-group">
+              <label>Kênh Thông báo</label>
+              <input type="text" class="settings-input" id="set-ANNOUNCEMENT_CHANNEL_ID" placeholder="Announcement channel ID…"/>
+            </div>
+          </div>
+        </div>
+
+        <div class="settings-section">
+          <div class="settings-section-title"><i class="fas fa-user-shield"></i> Role IDs</div>
+          <div class="settings-grid settings-grid-3">
+            <div class="form-group">
+              <label>Role CSKH</label>
+              <input type="text" class="settings-input" id="set-CS_ROLE_ID" placeholder="CS role ID…"/>
+            </div>
+            <div class="form-group">
+              <label>Role Admin</label>
+              <input type="text" class="settings-input" id="set-ADMIN_ROLE_ID" placeholder="Admin role ID…"/>
+            </div>
+            <div class="form-group">
+              <label>Role Mod</label>
+              <input type="text" class="settings-input" id="set-MOD_ROLE_ID" placeholder="Mod role ID…"/>
+            </div>
+          </div>
+        </div>
+
+        <div class="settings-section">
+          <div class="settings-section-title"><i class="fas fa-power-off"></i> Điều khiển bot</div>
+          <div class="settings-note">
+            <i class="fas fa-lock"></i>
+            Mọi thao tác bật/tắt/khởi động lại bot đều yêu cầu nhập mật khẩu dashboard.
+          </div>
+          <div class="bot-status-row">
+            <span class="bot-status-label">Trạng thái hiện tại:</span>
+            <span id="botStatusBadge" class="badge badge-gray">Đang kiểm tra…</span>
+          </div>
+          <div class="bot-actions">
+            <button class="btn-secondary" onclick="openBotControlModal('start')">
+              <i class="fas fa-play"></i> &nbsp;Bật bot
+            </button>
+            <button class="btn-danger" onclick="openBotControlModal('stop')">
+              <i class="fas fa-stop"></i> &nbsp;Tắt bot
+            </button>
+            <button class="btn-primary" onclick="openBotControlModal('restart')">
+              <i class="fas fa-rotate-right"></i> &nbsp;Khởi động lại bot
+            </button>
+          </div>
+        </div>
+
+        <div class="settings-save-bar">
+          <div id="settingsMsg" class="settings-msg hidden"></div>
+          <button class="btn-primary" onclick="openSaveSettingsModal()">
+            <i class="fas fa-floppy-disk"></i> &nbsp;Lưu cài đặt
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<!-- ════════════════════════════
+     MODAL: Thêm Acc
+════════════════════════════ -->
+<div id="addAccModal" class="modal hidden">
+  <div class="modal-overlay" onclick="closeModal('addAccModal')"></div>
+  <div class="modal-box">
+    <div class="modal-header">
+      <h3><i class="fas fa-plus-circle" style="color:var(--gold)"></i> Thêm Acc Mới</h3>
+      <button class="modal-close" onclick="closeModal('addAccModal')"><i class="fas fa-xmark"></i></button>
+    </div>
+    <div class="modal-body">
+      <div class="form-group">
+        <label>Loại Acc</label>
+        <input type="text" id="acc-type" placeholder="VD: Netflix, Spotify, Game XYZ…"/>
+      </div>
+      <div class="form-group">
+        <label>Giá bán (VNĐ)</label>
+        <input type="number" id="acc-price" placeholder="VD: 50000"/>
+      </div>
+      <div class="form-group">
+        <label>Mô tả <span class="hint">(không bắt buộc)</span></label>
+        <input type="text" id="acc-description" placeholder="Full HD, 1 tháng…"/>
+      </div>
+      <div class="form-group">
+        <label>Danh sách acc <span class="hint">mỗi dòng 1 acc</span></label>
+        <textarea id="acc-list" rows="8" placeholder="email@gmail.com:password123&#10;email2@gmail.com:password456&#10;…"></textarea>
+      </div>
+      <div id="addAccResult" class="result-msg hidden"></div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn-secondary" onclick="closeModal('addAccModal')">Hủy</button>
+      <button class="btn-primary" onclick="submitAddAcc()"><i class="fas fa-floppy-disk"></i> &nbsp;Lưu vào kho</button>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════════════════
+     MODAL: Xác nhận lưu cài đặt
+════════════════════════════ -->
+<div id="saveSettingsModal" class="modal hidden">
+  <div class="modal-overlay" onclick="closeModal('saveSettingsModal')"></div>
+  <div class="modal-box modal-sm">
+    <div class="modal-header">
+      <h3><i class="fas fa-lock" style="color:var(--gold)"></i> Xác nhận thao tác</h3>
+      <button class="modal-close" onclick="closeModal('saveSettingsModal')"><i class="fas fa-xmark"></i></button>
+    </div>
+    <div class="modal-body">
+      <p id="settingsModalText" style="color:var(--text-lo);margin-bottom:1rem;font-size:.9rem">Nhập mật khẩu dashboard để xác nhận thao tác.</p>
+      <div class="form-group">
+        <label>Mật khẩu</label>
+        <input type="password" id="settingsConfirmPass" placeholder="Nhập mật khẩu…" onkeydown="if(event.key==='Enter')submitSettingsAction()"/>
+      </div>
+      <div id="settingsModalErr" class="error-msg hidden"><i class="fas fa-circle-exclamation"></i> <span></span></div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn-secondary" onclick="closeModal('saveSettingsModal')">Hủy</button>
+      <button id="settingsModalConfirmBtn" class="btn-primary" onclick="submitSettingsAction()"><i class="fas fa-check"></i> &nbsp;Xác nhận</button>
+    </div>
+  </div>
+</div>
+
+<script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,563 @@
+[2026-03-09 17:41:27] [33mwarn[39m: ⚠️ MongoDB disconnected. Reconnecting...
+[2026-03-09 17:43:33] [33mwarn[39m: ⚠️ MongoDB disconnected. Reconnecting...
+[2026-03-11 03:16:53] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-11 03:16:53] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-11 03:16:53] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-11 03:16:53] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-11 03:16:53] [32minfo[39m: 📡 Event: ready
+[2026-03-11 03:16:55] [32minfo[39m: 🚀 Bot đã khởi động!
+[2026-03-11 03:16:55] [32minfo[39m: ✅ Bot online: Kha phiên bản Culi#9185
+[2026-03-11 03:16:56] [32minfo[39m: ✅ Registered 10 slash commands
+[2026-03-11 03:16:56] [32minfo[39m: 🕐 Cron jobs scheduled
+[2026-03-11 03:17:29] [31merror[39m: Interaction error [shop]: db.prepare is not a function
+[2026-03-11 03:17:45] [31merror[39m: createTicket error: db.prepare is not a function
+[2026-03-11 03:17:45] [31merror[39m: Interaction error [ticket]: db.prepare is not a function
+[2026-03-11 03:18:15] [31merror[39m: Interaction error [leaderboard]: db.prepare is not a function
+[2026-03-11 03:18:34] [31merror[39m: Interaction error [stock]: db.prepare is not a function
+[2026-03-11 03:23:52] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-11 03:23:52] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-11 03:23:52] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-11 03:23:52] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-11 03:23:52] [32minfo[39m: 📡 Event: ready
+[2026-03-11 03:23:53] [32minfo[39m: 🚀 Bot đã khởi động!
+[2026-03-11 03:23:54] [32minfo[39m: ✅ Bot online: Kha phiên bản Culi#9185
+[2026-03-11 03:23:54] [32minfo[39m: ✅ Registered 10 slash commands
+[2026-03-11 03:23:54] [32minfo[39m: 🕐 Cron jobs scheduled
+[2026-03-11 03:24:15] [31merror[39m: Interaction error [shop]: db.prepare is not a function
+[2026-03-11 03:25:22] [31merror[39m: Interaction error [stock]: db.prepare is not a function
+[2026-03-11 03:25:40] [31merror[39m: createTicket error: db.prepare is not a function
+[2026-03-11 03:25:40] [31merror[39m: Interaction error [ticket]: db.prepare is not a function
+[2026-03-11 03:31:59] [31merror[39m: Interaction error [stock]: db.prepare is not a function
+[2026-03-11 19:22:45] [31merror[39m: Interaction error [stock]: db.prepare is not a function
+[2026-03-11 20:23:45] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-11 20:23:45] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-11 20:23:45] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-11 20:23:45] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-11 20:23:45] [32minfo[39m: 📡 Event: ready
+[2026-03-11 20:23:46] [32minfo[39m: 🚀 Bot đã khởi động!
+[2026-03-11 20:23:47] [32minfo[39m: ✅ Bot online: Kha phiên bản Culi#9185
+[2026-03-11 20:23:47] [32minfo[39m: ✅ Registered 10 slash commands
+[2026-03-11 20:23:47] [32minfo[39m: 🕐 Cron jobs scheduled
+[2026-03-11 20:24:26] [31merror[39m: createTicket error: db.prepare is not a function
+[2026-03-11 20:24:26] [31merror[39m: Interaction error [ticket]: db.prepare is not a function
+[2026-03-12 01:03:52] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-12 01:03:52] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-12 01:03:52] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-12 01:03:52] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-12 01:03:52] [32minfo[39m: 📡 Event: ready
+[2026-03-12 01:03:53] [32minfo[39m: 🚀 Bot đã khởi động!
+[2026-03-12 01:03:54] [32minfo[39m: ✅ Bot online: Kha phiên bản Culi#9185
+[2026-03-12 01:03:55] [32minfo[39m: ✅ Registered 10 slash commands
+[2026-03-12 01:03:55] [32minfo[39m: 🕐 Cron jobs scheduled
+[2026-03-12 01:04:46] [31merror[39m: createTicket error: Invalid Form Body
+parent_id[CHANNEL_PARENT_INVALID_TYPE]: Not a category
+[2026-03-12 01:04:46] [31merror[39m: Interaction error [ticket]: Invalid Form Body
+parent_id[CHANNEL_PARENT_INVALID_TYPE]: Not a category
+[2026-03-12 01:10:23] [31merror[39m: Interaction error [shop_check_stock]: Cannot read properties of undefined (reading 'status')
+[2026-03-12 01:10:27] [31merror[39m: createTicket error: Invalid Form Body
+parent_id[CHANNEL_PARENT_INVALID_TYPE]: Not a category
+[2026-03-12 01:10:27] [31merror[39m: Interaction error [ticket_create_support]: Invalid Form Body
+parent_id[CHANNEL_PARENT_INVALID_TYPE]: Not a category
+[2026-03-13 21:25:42] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-13 21:25:42] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-13 21:25:42] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-13 21:25:42] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-13 21:25:43] [32minfo[39m: 📡 Event: ready
+[2026-03-13 21:25:44] [32minfo[39m: 🚀 Bot đã khởi động!
+[2026-03-13 21:25:44] [32minfo[39m: ✅ Bot online: Kha phiên bản Culi#9185
+[2026-03-13 21:25:45] [32minfo[39m: ✅ Registered 10 slash commands
+[2026-03-13 21:25:46] [32minfo[39m: 🕐 Cron jobs scheduled
+[2026-03-13 21:26:28] [32minfo[39m: Waiting bank transfer: DH11988112 - Amount: 160
+[2026-03-13 21:56:28] [31merror[39m: Interaction error [pay_bank_ACC-1773252601614-1470fe]: Invalid Webhook Token
+[2026-03-13 22:11:10] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-13 22:11:10] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-13 22:11:10] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-13 22:11:10] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-13 22:11:10] [32minfo[39m: 📡 Event: ready
+[2026-03-13 22:11:12] [32minfo[39m: 🚀 Bot đã khởi động!
+[2026-03-13 22:11:12] [32minfo[39m: ✅ Bot online: Kha phiên bản Culi#9185
+[2026-03-13 22:11:12] [32minfo[39m: ✅ Registered 10 slash commands
+[2026-03-13 22:11:13] [32minfo[39m: 🕐 Cron jobs scheduled
+[2026-03-13 22:11:49] [33mwarn[39m: Ticket category ID is not a valid category channel, creating without category
+[2026-03-13 22:11:52] [32minfo[39m: Ticket TKT-1773414709545-1 created for khapromcvn
+[2026-03-13 22:11:52] [31merror[39m: Interaction error [ticket]: Unknown interaction
+[2026-03-13 22:17:04] [32minfo[39m: Waiting bank transfer: DH15024220 - Amount: 160
+[2026-03-13 22:18:02] [32minfo[39m: Waiting bank transfer: DH15081451 - Amount: 10000
+[2026-03-13 22:18:34] [31merror[39m: Interaction error [addacc]: Cannot read properties of null (reading 'split')
+[2026-03-13 22:22:45] [31merror[39m: Interaction error [addacc]: Cannot read properties of null (reading 'split')
+[2026-03-13 22:23:35] [32minfo[39m: Waiting bank transfer: DH15415143 - Amount: 10000
+[2026-03-13 22:47:05] [31merror[39m: Interaction error [pay_bank_ACC-1773252601614-1470fe]: Invalid Webhook Token
+[2026-03-13 22:48:02] [31merror[39m: Interaction error [pay_bank_ACC-1773415068057-d73926]: Invalid Webhook Token
+[2026-03-13 22:53:36] [31merror[39m: Interaction error [pay_bank_ACC-1773415398914-fa2e00]: Invalid Webhook Token
+[2026-03-13 23:48:22] [33mwarn[39m: Ticket category ID is not a valid category channel, creating without category
+[2026-03-13 23:48:24] [32minfo[39m: Ticket TKT-1773420502300-2 created for khapromcvn
+[2026-03-13 23:50:32] [32minfo[39m: Waiting bank transfer: DH20631712 - Amount: 160
+[2026-03-13 23:51:28] [32minfo[39m: Waiting bank transfer: DH20687531 - Amount: 160
+[2026-03-13 23:58:32] [31merror[39m: chargeCard error:
+[2026-03-14 00:20:32] [31merror[39m: Interaction error [pay_bank_ACC-1773252601614-1470fe]: Invalid Webhook Token
+[2026-03-14 00:21:28] [31merror[39m: Interaction error [pay_bank_ACC-1773252601614-1470fe]: Invalid Webhook Token
+[2026-03-14 08:12:20] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-14 08:12:20] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-14 08:12:20] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-14 08:12:20] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-14 08:12:20] [32minfo[39m: 📡 Event: ready
+[2026-03-14 08:12:21] [32minfo[39m: 🚀 Bot đã khởi động!
+[2026-03-14 08:12:22] [32minfo[39m: ✅ Bot online: Kha phiên bản Culi#9185
+[2026-03-14 08:12:22] [32minfo[39m: ✅ Registered 10 slash commands
+[2026-03-14 08:12:23] [32minfo[39m: 🕐 Cron jobs scheduled
+[2026-03-14 08:14:25] [32minfo[39m: 🌐 Dashboard running at http://localhost:3000
+[2026-03-14 01:39:01] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-14 01:39:01] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-14 01:39:01] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-14 01:39:01] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-14 01:39:01] [32minfo[39m: 📡 Event: ready
+[2026-03-14 01:39:02] [31merror[39m: Login failed: Used disallowed intents
+[2026-03-14 01:42:12] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-14 01:42:12] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-14 01:42:12] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-14 01:42:12] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-14 01:42:12] [32minfo[39m: 📡 Event: ready
+[2026-03-14 01:42:13] [31merror[39m: Login failed: Used disallowed intents
+[2026-03-14 01:44:59] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-14 01:44:59] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-14 01:44:59] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-14 01:44:59] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-14 01:44:59] [32minfo[39m: 📡 Event: ready
+[2026-03-14 01:45:00] [32minfo[39m: 🚀 Bot đã khởi động!
+[2026-03-14 01:45:00] [32minfo[39m: ✅ Bot online: dev001#3655
+[2026-03-14 01:45:00] [32minfo[39m: ✅ Registered 10 slash commands
+[2026-03-14 01:45:00] [32minfo[39m: 🕐 Cron jobs scheduled
+[2026-03-14 01:45:47] [32minfo[39m: Waiting bank transfer: DH20347436 - Amount: 160
+[2026-03-14 01:59:20] [32minfo[39m: 🌐 Dashboard running at http://localhost:3000
+[2026-03-14 11:40:38] [32minfo[39m: 🌐 Dashboard running at http://localhost:3000
+[2026-03-14 11:44:28] [32minfo[39m: 🌐 Dashboard running at http://localhost:3000
+[2026-03-14 11:50:04] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-14 11:50:04] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-14 11:50:04] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-14 11:50:04] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-14 11:50:04] [32minfo[39m: 📡 Event: ready
+[2026-03-14 11:50:05] [32minfo[39m: 🚀 Bot đã khởi động!
+[2026-03-14 11:50:05] [32minfo[39m: ✅ Bot online: dev001#3655
+[2026-03-14 11:50:05] [32minfo[39m: ✅ Registered 10 slash commands
+[2026-03-14 11:50:05] [32minfo[39m: 🕐 Cron jobs scheduled
+[2026-03-14 11:50:29] [32minfo[39m: Waiting bank transfer: DH56629150 - Amount: 10000
+[2026-03-14 11:51:11] [33mwarn[39m: Ticket category ID is not a valid category channel, creating without category
+[2026-03-14 11:51:11] [31merror[39m: createTicket error: Supplied parameter is not a cached User or Role.
+[2026-03-14 11:51:11] [31merror[39m: Interaction error [ticket]: Supplied parameter is not a cached User or Role.
+[2026-03-14 11:54:58] [33mwarn[39m: Ticket category ID is not a valid category channel, creating without category
+[2026-03-14 11:54:58] [31merror[39m: createTicket error: Supplied parameter is not a cached User or Role.
+[2026-03-14 11:54:58] [31merror[39m: Interaction error [ticket]: Supplied parameter is not a cached User or Role.
+[2026-03-14 11:55:17] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-14 11:55:17] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-14 11:55:17] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-14 11:55:17] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-14 11:55:18] [32minfo[39m: 📡 Event: ready
+[2026-03-14 11:55:19] [32minfo[39m: 🚀 Bot đã khởi động!
+[2026-03-14 11:55:19] [32minfo[39m: ✅ Bot online: dev001#3655
+[2026-03-14 11:55:19] [32minfo[39m: ✅ Registered 10 slash commands
+[2026-03-14 11:55:19] [32minfo[39m: 🕐 Cron jobs scheduled
+[2026-03-14 11:55:25] [31merror[39m: createTicket error: Supplied parameter is not a cached User or Role.
+[2026-03-14 11:55:25] [31merror[39m: Interaction error [ticket]: Supplied parameter is not a cached User or Role.
+[2026-03-14 11:57:55] [31merror[39m: createTicket error: Supplied parameter is not a cached User or Role.
+[2026-03-14 11:57:55] [31merror[39m: Interaction error [ticket]: Supplied parameter is not a cached User or Role.
+[2026-03-14 11:58:05] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-14 11:58:05] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-14 11:58:05] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-14 11:58:05] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-14 11:58:05] [32minfo[39m: 📡 Event: ready
+[2026-03-14 11:58:06] [32minfo[39m: 🚀 Bot đã khởi động!
+[2026-03-14 11:58:06] [32minfo[39m: ✅ Bot online: dev001#3655
+[2026-03-14 11:58:06] [32minfo[39m: ✅ Registered 10 slash commands
+[2026-03-14 11:58:06] [32minfo[39m: 🕐 Cron jobs scheduled
+[2026-03-14 11:58:22] [32minfo[39m: Ticket TKT-1773457101666-1 created for .vnuh
+[2026-03-14 11:58:45] [31merror[39m: Interaction error [ticket_rate_TKT-1773457101666-1]: no such column: rated_at
+[2026-03-14 12:00:28] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-14 12:00:28] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-14 12:00:28] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-14 12:00:28] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-14 12:00:28] [32minfo[39m: 📡 Event: ready
+[2026-03-14 12:00:28] [32minfo[39m: 🚀 Bot đã khởi động!
+[2026-03-14 12:00:28] [32minfo[39m: ✅ Bot online: dev001#3655
+[2026-03-14 12:00:29] [32minfo[39m: ✅ Registered 10 slash commands
+[2026-03-14 12:00:29] [32minfo[39m: 🕐 Cron jobs scheduled
+[2026-03-14 12:00:36] [31merror[39m: Interaction error [ticket_rate_TKT-1773457101666-1]: no such column: rated_at
+[2026-03-14 12:01:18] [32minfo[39m: Ticket TKT-1773457277301-1 created for .vnuh
+[2026-03-14 12:01:30] [31merror[39m: Interaction error [ticket_rate_TKT-1773457277301-1]: no such column: rated_at
+[2026-03-14 12:07:41] [33mwarn[39m: Invalid Casso webhook token
+[2026-03-14 12:08:25] [32minfo[39m: Waiting bank transfer: DH57705030 - Amount: 160
+[2026-03-14 12:08:45] [33mwarn[39m: Invalid Casso webhook token
+[2026-03-14 12:09:26] [33mwarn[39m: Invalid Casso webhook token
+[2026-03-14 12:38:31] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-14 12:38:31] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-14 12:38:31] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-14 12:38:31] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-14 12:38:31] [32minfo[39m: 📡 Event: ready
+[2026-03-14 12:38:32] [32minfo[39m: 🚀 Bot đã khởi động!
+[2026-03-14 12:38:32] [32minfo[39m: ✅ Bot online: dev001#3655
+[2026-03-14 12:38:33] [32minfo[39m: ✅ Registered 10 slash commands
+[2026-03-14 12:38:33] [32minfo[39m: 🕐 Cron jobs scheduled
+[2026-03-14 12:38:57] [32minfo[39m: 🌐 Dashboard running at http://localhost:3000
+[2026-03-14 12:39:36] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-14 12:39:36] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-14 12:39:36] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-14 12:39:36] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-14 12:39:36] [32minfo[39m: 📡 Event: ready
+[2026-03-14 12:39:37] [32minfo[39m: 🚀 Bot đã khởi động!
+[2026-03-14 12:39:37] [32minfo[39m: ✅ Bot online: dev001#3655
+[2026-03-14 12:39:37] [32minfo[39m: ✅ Registered 10 slash commands
+[2026-03-14 12:39:37] [32minfo[39m: 🕐 Cron jobs scheduled
+[2026-03-14 12:40:42] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-14 12:40:42] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-14 12:40:42] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-14 12:40:42] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-14 12:40:42] [32minfo[39m: 📡 Event: ready
+[2026-03-14 12:40:43] [32minfo[39m: 🚀 Bot đã khởi động!
+[2026-03-14 12:40:43] [32minfo[39m: ✅ Bot online: dev001#3655
+[2026-03-14 12:40:43] [32minfo[39m: ✅ Registered 10 slash commands
+[2026-03-14 12:40:43] [32minfo[39m: 🕐 Cron jobs scheduled
+[2026-03-14 12:40:57] [32minfo[39m: Waiting bank transfer: DH59657430 - Amount: 10000
+[2026-03-14 12:46:06] [32minfo[39m: 🌐 Dashboard running at http://localhost:3000
+[2026-03-14 12:46:16] [33mwarn[39m: Invalid Casso webhook signature
+[2026-03-14 12:46:16] [33mwarn[39m: Casso webhook error: Invalid signature - Signature does not match expected value
+[2026-03-14 12:49:19] [32minfo[39m: 🌐 Dashboard running at http://localhost:3000
+[2026-03-14 12:49:23] [32minfo[39m: Signature check: expected e47c110e2792022ee94d503ec3ce42d409991794eca0ff406be2d968255928ca, received AK_CS.0291f4801f3a11f1a3ca79c2f1d864cb.qr14zRl7kkM1os0b5FBMKqYMx3bkpyUklfUTXGSq7lkcMnYDns4qeDFgZDatW591YjVksGRw
+[2026-03-14 12:49:23] [33mwarn[39m: Invalid Casso webhook signature
+[2026-03-14 12:49:23] [33mwarn[39m: Casso webhook error: Invalid signature - Signature does not match expected value
+[2026-03-14 12:51:37] [32minfo[39m: Signature check: expected e47c110e2792022ee94d503ec3ce42d409991794eca0ff406be2d968255928ca, received e47c110e2792022ee94d503ec3ce42d409991794eca0ff406be2d968255928ca
+[2026-03-14 12:51:37] [32minfo[39m: No matching pending transfer for transaction: 23452345678
+[2026-03-14 12:51:37] [33mwarn[39m: Casso webhook error: No matching transfer - Transaction does not match any pending order
+[2026-03-14 12:52:01] [32minfo[39m: Waiting bank transfer: DH60321593 - Amount: 10000
+[2026-03-14 12:52:20] [32minfo[39m: Signature check: expected eeb7e289838db52b8ee66b815a141a39df78daf16799acbd60e34a36e6dee0cb, received e47c110e2792022ee94d503ec3ce42d409991794eca0ff406be2d968255928ca
+[2026-03-14 12:52:20] [33mwarn[39m: Invalid Casso webhook signature
+[2026-03-14 12:52:20] [33mwarn[39m: Casso webhook error: Invalid signature - Signature does not match expected value
+[2026-03-14 12:52:43] [32minfo[39m: Signature check: expected eeb7e289838db52b8ee66b815a141a39df78daf16799acbd60e34a36e6dee0cb, received eeb7e289838db52b8ee66b815a141a39df78daf16799acbd60e34a36e6dee0cb
+[2026-03-14 12:52:43] [32minfo[39m: No matching pending transfer for transaction: 23452345678
+[2026-03-14 12:52:43] [33mwarn[39m: Casso webhook error: No matching transfer - Transaction does not match any pending order
+[2026-03-14 12:53:37] [32minfo[39m: Signature check: expected 1e72a4c5b71a2818f5a1dcb3c1f564643e6c2124ee38319010a7b81d27907f68, received eeb7e289838db52b8ee66b815a141a39df78daf16799acbd60e34a36e6dee0cb
+[2026-03-14 12:53:37] [33mwarn[39m: Invalid Casso webhook signature
+[2026-03-14 12:53:37] [33mwarn[39m: Casso webhook error: Invalid signature - Signature does not match expected value
+[2026-03-14 12:53:40] [32minfo[39m: Signature check: expected 1e72a4c5b71a2818f5a1dcb3c1f564643e6c2124ee38319010a7b81d27907f68, received eeb7e289838db52b8ee66b815a141a39df78daf16799acbd60e34a36e6dee0cb
+[2026-03-14 12:53:40] [33mwarn[39m: Invalid Casso webhook signature
+[2026-03-14 12:53:40] [33mwarn[39m: Casso webhook error: Invalid signature - Signature does not match expected value
+[2026-03-14 12:53:58] [32minfo[39m: Signature check: expected 1e72a4c5b71a2818f5a1dcb3c1f564643e6c2124ee38319010a7b81d27907f68, received eeb7e289838db52b8ee66b815a141a39df78daf16799acbd60e34a36e6dee0cb
+[2026-03-14 12:53:58] [33mwarn[39m: Invalid Casso webhook signature
+[2026-03-14 12:53:58] [33mwarn[39m: Casso webhook error: Invalid signature - Signature does not match expected value
+[2026-03-14 12:54:26] [32minfo[39m: Signature check: expected 1e72a4c5b71a2818f5a1dcb3c1f564643e6c2124ee38319010a7b81d27907f68, received 1e72a4c5b71a2818f5a1dcb3c1f564643e6c2124ee38319010a7b81d27907f68
+[2026-03-14 12:54:26] [32minfo[39m: No matching pending transfer for transaction: 23452345678
+[2026-03-14 12:54:26] [33mwarn[39m: Casso webhook error: No matching transfer - Transaction does not match any pending order
+[2026-03-14 13:10:58] [31merror[39m: Interaction error [pay_bank_ACC-1773415068057-d73926]: Invalid Webhook Token
+[2026-03-14 13:12:28] [32minfo[39m: Signature check: expected e47c110e2792022ee94d503ec3ce42d409991794eca0ff406be2d968255928ca, received 0d16bd5c2783ef3a79d7c9e8076b4a55a98c110d8d5560851904d3674d3356cb
+[2026-03-14 13:12:28] [33mwarn[39m: Invalid Casso webhook signature
+[2026-03-14 13:12:28] [33mwarn[39m: Casso webhook error: Invalid signature - Signature does not match expected value
+[2026-03-14 13:15:11] [32minfo[39m: Signature check: expected e47c110e2792022ee94d503ec3ce42d409991794eca0ff406be2d968255928ca, received e47c110e2792022ee94d503ec3ce42d409991794eca0ff406be2d968255928ca
+[2026-03-14 13:15:11] [32minfo[39m: No matching pending transfer for transaction: 23452345678
+[2026-03-14 13:15:11] [33mwarn[39m: Casso webhook error: No matching transfer - Transaction does not match any pending order
+[2026-03-14 13:15:34] [32minfo[39m: Waiting bank transfer: DH61733916 - Amount: 10000
+[2026-03-14 13:16:30] [32minfo[39m: Signature check: expected 074af6767c3e1f90cc076157ab63721e9460d76f3072a9844c708fd12510a671, received 074af6767c3e1f90cc076157ab63721e9460d76f3072a9844c708fd12510a671
+[2026-03-14 13:16:30] [32minfo[39m: No matching pending transfer for transaction: 23452345678
+[2026-03-14 13:16:30] [33mwarn[39m: Casso webhook error: No matching transfer - Transaction does not match any pending order
+[2026-03-14 13:17:02] [32minfo[39m: Signature check: expected 2d91ca8d4fe812c35be02401d033ac4a1ff57f3880b974c75cbd97228a31e890, received 2d91ca8d4fe812c35be02401d033ac4a1ff57f3880b974c75cbd97228a31e890
+[2026-03-14 13:17:02] [32minfo[39m: No matching pending transfer for transaction: 23452345678
+[2026-03-14 13:17:02] [33mwarn[39m: Casso webhook error: No matching transfer - Transaction does not match any pending order
+[2026-03-14 13:17:07] [32minfo[39m: Signature check: expected 231997aef562fc5e0fc1ce3b323433359b6d976a1b9872b95e530388ac8ccfb9, received 231997aef562fc5e0fc1ce3b323433359b6d976a1b9872b95e530388ac8ccfb9
+[2026-03-14 13:17:07] [32minfo[39m: No matching pending transfer for transaction: 23452345678
+[2026-03-14 13:17:07] [33mwarn[39m: Casso webhook error: No matching transfer - Transaction does not match any pending order
+[2026-03-14 13:17:14] [32minfo[39m: Signature check: expected 074af6767c3e1f90cc076157ab63721e9460d76f3072a9844c708fd12510a671, received 074af6767c3e1f90cc076157ab63721e9460d76f3072a9844c708fd12510a671
+[2026-03-14 13:17:14] [32minfo[39m: No matching pending transfer for transaction: 23452345678
+[2026-03-14 13:17:14] [33mwarn[39m: Casso webhook error: No matching transfer - Transaction does not match any pending order
+[2026-03-14 13:18:08] [32minfo[39m: Signature check: expected 074af6767c3e1f90cc076157ab63721e9460d76f3072a9844c708fd12510a671, received 074af6767c3e1f90cc076157ab63721e9460d76f3072a9844c708fd12510a671
+[2026-03-14 13:18:08] [32minfo[39m: No matching pending transfer for transaction: 23452345678
+[2026-03-14 13:18:08] [33mwarn[39m: Casso webhook error: No matching transfer - Transaction does not match any pending order
+[2026-03-14 13:18:41] [32minfo[39m: 🌐 Dashboard running at http://localhost:3000
+[2026-03-14 13:18:50] [32minfo[39m: Signature check: expected 074af6767c3e1f90cc076157ab63721e9460d76f3072a9844c708fd12510a671, received 074af6767c3e1f90cc076157ab63721e9460d76f3072a9844c708fd12510a671
+[2026-03-14 13:18:50] [33mwarn[39m: No matching pending transfer for transaction: 23452345678. description=DH61733916, amount=10000, matchedKey=null, pendingKeys=
+[2026-03-14 13:18:50] [33mwarn[39m: Casso webhook error: No matching transfer - Description did not match any pending transfer code.
+[2026-03-14 13:20:40] [32minfo[39m: Waiting bank transfer: DH62040315 - Amount: 10000
+[2026-03-14 13:20:57] [32minfo[39m: Signature check: expected 6dacc57de7c672eb0c437cecd99acbb8d63a2f71462630a7ef3dd48dbbc0cbc7, received 6dacc57de7c672eb0c437cecd99acbb8d63a2f71462630a7ef3dd48dbbc0cbc7
+[2026-03-14 13:20:57] [33mwarn[39m: No matching pending transfer for transaction: 23452345678. description=DH62040315, amount=10000, matchedKey=null, pendingKeys=
+[2026-03-14 13:20:57] [33mwarn[39m: Casso webhook error: No matching transfer - Description did not match any pending transfer code.
+[2026-03-14 13:21:09] [32minfo[39m: Signature check: expected e713d16b523a0e808e513995352cd92d71028421cc11b96b6d0365d5206b51d7, received e713d16b523a0e808e513995352cd92d71028421cc11b96b6d0365d5206b51d7
+[2026-03-14 13:21:09] [33mwarn[39m: No matching pending transfer for transaction: 23452345678. description=DH62040315, amount=10000, matchedKey=null, pendingKeys=
+[2026-03-14 13:21:09] [33mwarn[39m: Casso webhook error: No matching transfer - Description did not match any pending transfer code.
+[2026-03-14 13:22:02] [31merror[39m: Interaction error [pay_bank_ACC-1773415398914-fa2e00]: Invalid Webhook Token
+[2026-03-14 13:23:58] [32minfo[39m: 🌐 Dashboard running at http://localhost:3000
+[2026-03-14 13:24:14] [32minfo[39m: Waiting bank transfer: DH62254112 - Amount: 10000
+[2026-03-14 13:24:29] [32minfo[39m: Signature check: expected d1f6bac76a9c562e05340d1220d7db1ee24a5faf4835b517b8b37e0e9bb94e88, received d1f6bac76a9c562e05340d1220d7db1ee24a5faf4835b517b8b37e0e9bb94e88
+[2026-03-14 13:24:29] [33mwarn[39m: No matching pending transfer for transaction: 23452345678. description=DH62254112, amount=10000, matchedKey=null, pendingKeys=
+[2026-03-14 13:24:29] [33mwarn[39m: Casso webhook error: No matching transfer - Description did not match any pending transfer code 'null'.
+[2026-03-14 13:24:45] [32minfo[39m: Signature check: expected 932a904850bf1dd49dd8c4ce4f99fb8e576a519487fe8897c23fe5fd22ac451b, received 932a904850bf1dd49dd8c4ce4f99fb8e576a519487fe8897c23fe5fd22ac451b
+[2026-03-14 13:24:45] [33mwarn[39m: No matching pending transfer for transaction: 23452345678. description=null, amount=10000, matchedKey=null, pendingKeys=
+[2026-03-14 13:24:45] [33mwarn[39m: Casso webhook error: No matching transfer - Description did not match any pending transfer code 'null'.
+[2026-03-14 13:24:52] [32minfo[39m: Signature check: expected bcb150e606caed0ceb5eb7eb02280540774262f78b9ffb05430e7b4a187a0801, received bcb150e606caed0ceb5eb7eb02280540774262f78b9ffb05430e7b4a187a0801
+[2026-03-14 13:24:52] [33mwarn[39m: Missing required fields in Casso webhook data
+[2026-03-14 13:24:52] [33mwarn[39m: Casso webhook error: Missing required fields - description, amount, and id are required
+[2026-03-14 13:41:09] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-14 13:41:09] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-14 13:41:09] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-14 13:41:09] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-14 13:41:09] [32minfo[39m: 📡 Event: ready
+[2026-03-14 13:41:10] [32minfo[39m: 🚀 Bot đã khởi động!
+[2026-03-14 13:41:10] [32minfo[39m: ✅ Bot online: dev001#3655
+[2026-03-14 13:41:10] [32minfo[39m: ✅ Registered 10 slash commands
+[2026-03-14 13:41:10] [31merror[39m: Client error: accManager.cancelStalePendingOrders is not a function
+[2026-03-14 13:43:00] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-14 13:43:00] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-14 13:43:00] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-14 13:43:00] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-14 13:43:00] [32minfo[39m: 📡 Event: ready
+[2026-03-14 13:43:01] [32minfo[39m: 🚀 Bot đã khởi động!
+[2026-03-14 13:43:01] [32minfo[39m: ✅ Bot online: dev001#3655
+[2026-03-14 13:43:02] [32minfo[39m: ✅ Registered 10 slash commands
+[2026-03-14 13:43:02] [32minfo[39m: 🕐 Cron jobs scheduled
+[2026-03-14 13:43:06] [32minfo[39m: 🌐 Dashboard running at http://localhost:3000
+[2026-03-14 13:43:11] [32minfo[39m: Signature check: expected d1f6bac76a9c562e05340d1220d7db1ee24a5faf4835b517b8b37e0e9bb94e88, received d1f6bac76a9c562e05340d1220d7db1ee24a5faf4835b517b8b37e0e9bb94e88
+[2026-03-14 13:43:11] [33mwarn[39m: No matching pending transfer for transaction: 23452345678. description=DH62254112, amount=10000, matchedKey=null, pendingKeys=
+[2026-03-14 13:43:11] [33mwarn[39m: Casso webhook error: No matching transfer - Description did not match any pending transfer code.
+[2026-03-14 13:43:36] [32minfo[39m: Waiting bank transfer: DH63416390 - Amount: 10000
+[2026-03-14 13:43:50] [32minfo[39m: Signature check: expected b61311f932de3d3a6beaa450df5085af2324c96eed5c2548c800ece4d67e6a61, received b61311f932de3d3a6beaa450df5085af2324c96eed5c2548c800ece4d67e6a61
+[2026-03-14 13:43:50] [32minfo[39m: Casso payment confirmed from DB: DH63416390 - 10000đ - Transaction ID: 23452345678
+[2026-03-14 13:43:50] [32minfo[39m: Casso webhook processed: order ORD-1773463416390
+[2026-03-14 13:58:36] [31merror[39m: Interaction error [pay_bank_ACC-1773415398914-fa2e00]: Invalid Webhook Token
+[2026-03-14 14:02:59] [32minfo[39m: 🌐 Dashboard running at http://localhost:3000
+[2026-03-14 14:03:03] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-14 14:03:03] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-14 14:03:03] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-14 14:03:03] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-14 14:03:03] [32minfo[39m: 📡 Event: ready
+[2026-03-14 14:03:04] [32minfo[39m: 🚀 Bot đã khởi động!
+[2026-03-14 14:03:04] [32minfo[39m: ✅ Bot online: dev001#3655
+[2026-03-14 14:03:04] [32minfo[39m: ✅ Registered 10 slash commands
+[2026-03-14 14:03:04] [32minfo[39m: 🕐 Cron jobs scheduled
+[2026-03-14 14:18:13] [32minfo[39m: 🌐 Dashboard running at http://localhost:3000
+[2026-03-14 14:20:32] [32minfo[39m: 🌐 Dashboard running at http://localhost:3000
+[2026-03-14 14:23:25] [32minfo[39m: Ticket TKT-1773465804704-1 created for .vnuh
+[2026-03-14 14:23:54] [32minfo[39m: Waiting bank transfer: DH65834691 - Amount: 10000
+[2026-03-14 14:24:11] [32minfo[39m: Signature check: expected f0c633c7789ee10788a9bdcfabefb30fd2146942fc0bb21fa22a84dd90445540, received f0c633c7789ee10788a9bdcfabefb30fd2146942fc0bb21fa22a84dd90445540
+[2026-03-14 14:24:11] [32minfo[39m: Casso payment confirmed from DB: DH65834691 - 10000đ - Transaction ID: 23452345678
+[2026-03-14 14:24:11] [32minfo[39m: Casso webhook processed: order ORD-1773465834691
+[2026-03-14 14:34:09] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-14 14:34:09] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-14 14:34:09] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-14 14:34:09] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-14 14:34:10] [32minfo[39m: 📡 Event: ready
+[2026-03-14 14:34:10] [32minfo[39m: 🌐 Dashboard running at http://localhost:3000
+[2026-03-14 14:34:12] [32minfo[39m: 🚀 Bot đã khởi động!
+[2026-03-14 14:34:12] [32minfo[39m: ✅ Bot online: dev001#3655
+[2026-03-14 14:34:12] [32minfo[39m: ✅ Registered 10 slash commands
+[2026-03-14 14:34:12] [32minfo[39m: 🕐 Cron jobs scheduled
+[2026-03-14 14:34:15] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-14 14:34:15] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-14 14:34:15] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-14 14:34:15] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-14 14:34:15] [32minfo[39m: 📡 Event: ready
+[2026-03-14 14:34:16] [32minfo[39m: 🚀 Bot đã khởi động!
+[2026-03-14 14:34:16] [32minfo[39m: ✅ Bot online: dev001#3655
+[2026-03-14 14:34:16] [32minfo[39m: ✅ Registered 10 slash commands
+[2026-03-14 14:34:16] [32minfo[39m: 🕐 Cron jobs scheduled
+[2026-03-14 14:38:22] [31merror[39m: Interaction error [shop]: Unknown interaction
+[2026-03-14 14:38:26] [31merror[39m: Interaction error [shop_check_stock]: Unknown interaction
+[2026-03-14 14:39:22] [31merror[39m: Interaction error [shop]: Unknown interaction
+[2026-03-14 14:39:27] [31merror[39m: Interaction error [shop_select_type]: Unknown interaction
+[2026-03-14 14:39:34] [31merror[39m: Interaction error [pay_bank_ACC-1773466740406-75fd34]: Unknown interaction
+[2026-03-14 14:39:34] [32minfo[39m: Waiting bank transfer: DH66773986 - Amount: 10000
+[2026-03-14 14:40:16] [32minfo[39m: Signature check: expected 3d97c6e9dcb8cb3d1ecc27bb15fa24b6c519d6d4d4a4ef4ca4f11be02f73405e, received 3d97c6e9dcb8cb3d1ecc27bb15fa24b6c519d6d4d4a4ef4ca4f11be02f73405e
+[2026-03-14 14:40:16] [32minfo[39m: Casso payment confirmed from DB: DH66773986 - 10000đ - Transaction ID: 23452345678
+[2026-03-14 14:40:16] [31merror[39m: Unhandled rejection: client is not defined
+[2026-03-14 14:42:07] [31merror[39m: Interaction error [pay_cancel_ACC-1773466740406-75fd34]: Unknown interaction
+[2026-03-14 14:42:28] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-14 14:42:28] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-14 14:42:28] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-14 14:42:28] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-14 14:42:28] [32minfo[39m: 📡 Event: ready
+[2026-03-14 14:42:28] [32minfo[39m: 🌐 Dashboard running at http://localhost:3000
+[2026-03-14 14:42:29] [32minfo[39m: 🚀 Bot đã khởi động!
+[2026-03-14 14:42:29] [32minfo[39m: ✅ Bot online: dev001#3655
+[2026-03-14 14:42:29] [32minfo[39m: ✅ Registered 10 slash commands
+[2026-03-14 14:42:30] [32minfo[39m: 🕐 Cron jobs scheduled
+[2026-03-14 14:42:36] [32minfo[39m: Signature check: expected 3d97c6e9dcb8cb3d1ecc27bb15fa24b6c519d6d4d4a4ef4ca4f11be02f73405e, received 3d97c6e9dcb8cb3d1ecc27bb15fa24b6c519d6d4d4a4ef4ca4f11be02f73405e
+[2026-03-14 14:42:36] [33mwarn[39m: No matching pending transfer for transaction: 23452345678. description=DH66773986, amount=10000, matchedKey=null, pendingKeys=
+[2026-03-14 14:42:36] [33mwarn[39m: Casso webhook error: No matching transfer - Description did not match any pending transfer code.
+[2026-03-14 14:43:36] [31merror[39m: Interaction error [shop_select_type]: Unknown interaction
+[2026-03-14 14:43:38] [31merror[39m: Interaction error [pay_bank_ACC-1773466740406-728b78]: Unknown interaction
+[2026-03-14 14:43:38] [32minfo[39m: Waiting bank transfer: DH67017789 - Amount: 10000
+[2026-03-14 14:43:52] [32minfo[39m: Signature check: expected 3d2cf388820bf8d21a1ccf5c857b86efabeb12dd234b9eed8f7b5f8e09cff642, received 3d2cf388820bf8d21a1ccf5c857b86efabeb12dd234b9eed8f7b5f8e09cff642
+[2026-03-14 14:43:52] [32minfo[39m: Casso payment confirmed: DH67017789 - 10000đ - Transaction ID: 23452345678
+[2026-03-14 14:43:52] [31merror[39m: Unhandled rejection: client is not defined
+[2026-03-14 14:43:56] [32minfo[39m: Ticket TKT-1773467035139-1 created for .vnuh
+[2026-03-14 14:43:56] [32minfo[39m: Delivered: ACC-1773466740406-728b78 → .vnuh
+[2026-03-14 14:44:52] [31merror[39m: Interaction error [ticket_close_TKT-1773467035139-1]: Unknown interaction
+[2026-03-14 14:44:58] [31merror[39m: Interaction error [ticket_rate_TKT-1773467035139-1]: no such column: rated_at
+[2026-03-14 14:44:58] [31merror[39m: Interaction error [ticket_rate_TKT-1773467035139-1]: no such column: rated_at
+[2026-03-14 14:45:02] [31merror[39m: Interaction error [ticket_rate_TKT-1773467035139-1]: no such column: rated_at
+[2026-03-14 14:45:02] [31merror[39m: Interaction error [ticket_rate_TKT-1773467035139-1]: no such column: rated_at
+[2026-03-14 14:45:41] [31merror[39m: Interaction error [ticket_rate_TKT-1773467035139-1]: Unknown interaction
+[2026-03-14 14:45:56] [31merror[39m: Interaction error [ticket_rate_TKT-1773457101666-1]: Unknown interaction
+[2026-03-14 14:46:28] [31merror[39m: Interaction error [ticket_close_TKT-1773465804704-1]: Unknown interaction
+[2026-03-14 14:46:36] [31merror[39m: Interaction error [ticket_rate_TKT-1773465804704-1]: Unknown interaction
+[2026-03-14 14:50:55] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-14 14:50:55] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-14 14:50:55] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-14 14:50:55] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-14 14:50:55] [32minfo[39m: 📡 Event: ready
+[2026-03-14 14:50:55] [32minfo[39m: 🌐 Dashboard running at http://localhost:3000
+[2026-03-14 14:50:56] [32minfo[39m: 🚀 Bot đã khởi động!
+[2026-03-14 14:50:56] [32minfo[39m: ✅ Bot online: dev001#3655
+[2026-03-14 14:50:56] [32minfo[39m: ✅ Registered 10 slash commands
+[2026-03-14 14:50:57] [32minfo[39m: 🕐 Cron jobs scheduled
+[2026-03-14 14:51:04] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-14 14:51:04] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-14 14:51:04] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-14 14:51:04] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-14 14:51:04] [32minfo[39m: 📡 Event: ready
+[2026-03-14 14:51:05] [32minfo[39m: 🚀 Bot đã khởi động!
+[2026-03-14 14:51:05] [32minfo[39m: ✅ Bot online: dev001#3655
+[2026-03-14 14:51:06] [32minfo[39m: ✅ Registered 10 slash commands
+[2026-03-14 14:51:06] [32minfo[39m: 🕐 Cron jobs scheduled
+[2026-03-14 14:55:10] [32minfo[39m: Waiting bank transfer: DH67709745 - Amount: 20000
+[2026-03-14 14:55:43] [32minfo[39m: Signature check: expected 4c11408db5d68057623c0a8f8b5e567d44b82f6888e8339f5ecdee3e97a0dfa4, received 4c11408db5d68057623c0a8f8b5e567d44b82f6888e8339f5ecdee3e97a0dfa4
+[2026-03-14 14:55:43] [32minfo[39m: Casso payment confirmed: DH67709745 - 20000đ - Transaction ID: 23452345678
+[2026-03-14 14:55:43] [31merror[39m: Unhandled rejection: client is not defined
+[2026-03-14 14:55:44] [32minfo[39m: Ticket TKT-1773467744159-1 created for .vnuh
+[2026-03-14 14:55:44] [32minfo[39m: Delivered: ACC-1773467671675-ec0fe1 → .vnuh
+[2026-03-14 15:02:09] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-14 15:02:09] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-14 15:02:09] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-14 15:02:09] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-14 15:02:09] [32minfo[39m: 📡 Event: ready
+[2026-03-14 15:02:09] [32minfo[39m: 🌐 Dashboard running at http://localhost:3000
+[2026-03-14 15:02:10] [32minfo[39m: 🚀 Bot đã khởi động!
+[2026-03-14 15:02:10] [32minfo[39m: ✅ Bot online: dev001#3655
+[2026-03-14 15:02:10] [32minfo[39m: ✅ Registered 10 slash commands
+[2026-03-14 15:02:11] [32minfo[39m: 🕐 Cron jobs scheduled
+[2026-03-14 15:03:00] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-14 15:03:00] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-14 15:03:00] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-14 15:03:00] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-14 15:03:00] [32minfo[39m: 📡 Event: clientReady
+[2026-03-14 15:03:00] [32minfo[39m: 🌐 Dashboard running at http://localhost:3000
+[2026-03-14 15:03:01] [32minfo[39m: 🚀 Bot đã khởi động!
+[2026-03-14 15:03:01] [32minfo[39m: ✅ Bot online: dev001#3655
+[2026-03-14 15:03:01] [32minfo[39m: ✅ Registered 10 slash commands
+[2026-03-14 15:03:02] [32minfo[39m: 🕐 Cron jobs scheduled
+[2026-03-14 15:03:34] [31merror[39m: Interaction error [ticket_rate_TKT-1773467744159-1]: no such column: rated_at
+[2026-03-14 15:05:59] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-14 15:05:59] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-14 15:05:59] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-14 15:05:59] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-14 15:05:59] [32minfo[39m: 📡 Event: clientReady
+[2026-03-14 15:05:59] [32minfo[39m: 🌐 Dashboard running at http://localhost:3000
+[2026-03-14 15:06:00] [32minfo[39m: 🚀 Bot đã khởi động!
+[2026-03-14 15:06:00] [32minfo[39m: ✅ Bot online: dev001#3655
+[2026-03-14 15:06:01] [32minfo[39m: ✅ Registered 10 slash commands
+[2026-03-14 15:06:02] [32minfo[39m: 🕐 Cron jobs scheduled
+[2026-03-14 15:06:58] [31merror[39m: Interaction error [pay_bank_ACC-1773467671676-313949]: Cannot access 'db' before initialization
+[2026-03-14 15:08:37] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-14 15:08:37] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-14 15:08:37] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-14 15:08:37] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-14 15:08:37] [32minfo[39m: 📡 Event: clientReady
+[2026-03-14 15:08:37] [32minfo[39m: 🌐 Dashboard running at http://localhost:3000
+[2026-03-14 15:08:37] [32minfo[39m: 🚀 Bot đã khởi động!
+[2026-03-14 15:08:37] [32minfo[39m: ✅ Bot online: dev001#3655
+[2026-03-14 15:08:38] [32minfo[39m: ✅ Registered 10 slash commands
+[2026-03-14 15:08:38] [32minfo[39m: 🕐 Cron jobs scheduled
+[2026-03-14 15:08:50] [32minfo[39m: Waiting bank transfer: DH68529701 - Amount: 20000
+[2026-03-14 15:09:05] [32minfo[39m: Signature check: expected 77a5bb6ac4b210890bb70f2207d584682b34838dd2ba3763e293fdce3c758a58, received 77a5bb6ac4b210890bb70f2207d584682b34838dd2ba3763e293fdce3c758a58
+[2026-03-14 15:09:05] [32minfo[39m: Casso payment confirmed: DH68529701 - 20000đ - Transaction ID: 23452345678
+[2026-03-14 15:09:05] [31merror[39m: Unhandled rejection: client is not defined
+[2026-03-14 15:09:07] [32minfo[39m: Ticket TKT-1773468546497-1 created for .vnuh
+[2026-03-14 15:09:07] [32minfo[39m: Delivered: ACC-1773467671676-f0e19e → .vnuh
+[2026-03-14 15:22:18] [32minfo[39m: Waiting bank transfer: DH69337657 - Amount: 20000
+[2026-03-14 15:22:53] [32minfo[39m: Signature check: expected 40c22e0c3058be5e3486ee07a48050270b9b30150a832d1f9609fa3c22da9e24, received 40c22e0c3058be5e3486ee07a48050270b9b30150a832d1f9609fa3c22da9e24
+[2026-03-14 15:22:53] [33mwarn[39m: Duplicate transaction id: 23452345678
+[2026-03-14 15:22:53] [33mwarn[39m: Casso webhook error: Duplicate transaction - Transaction id 23452345678 already processed
+[2026-03-14 15:23:25] [32minfo[39m: Signature check: expected 40c22e0c3058be5e3486ee07a48050270b9b30150a832d1f9609fa3c22da9e24, received 40c22e0c3058be5e3486ee07a48050270b9b30150a832d1f9609fa3c22da9e24
+[2026-03-14 15:23:25] [33mwarn[39m: Duplicate transaction id: 23452345678
+[2026-03-14 15:23:25] [33mwarn[39m: Casso webhook error: Duplicate transaction - Transaction id 23452345678 already processed
+[2026-03-14 15:24:35] [32minfo[39m: Waiting bank transfer: DH69474913 - Amount: 20000
+[2026-03-14 15:24:50] [32minfo[39m: Signature check: expected aa33252813d67d0a509ef48fb52ea730404bd8ff9710f0265ef5f735c9feafc4, received aa33252813d67d0a509ef48fb52ea730404bd8ff9710f0265ef5f735c9feafc4
+[2026-03-14 15:24:50] [33mwarn[39m: Duplicate transaction id: 23452345678
+[2026-03-14 15:24:50] [33mwarn[39m: Casso webhook error: Duplicate transaction - Transaction id 23452345678 already processed
+[2026-03-14 15:26:18] [32minfo[39m: Signature check: expected 5f555a539dab0cb1e96cb22c57936d8cca0899b7008bcdbe743909ed1d2f88b0, received 5f555a539dab0cb1e96cb22c57936d8cca0899b7008bcdbe743909ed1d2f88b0
+[2026-03-14 15:26:18] [32minfo[39m: Casso payment confirmed: DH69474913 - 20000đ - Transaction ID: 234524545678
+[2026-03-14 15:26:18] [31merror[39m: Unhandled rejection: client is not defined
+[2026-03-14 15:26:19] [32minfo[39m: Ticket TKT-1773469578614-2 created for .vnuh
+[2026-03-14 15:26:19] [32minfo[39m: Delivered: ACC-1773467671676-b82a75 → .vnuh
+[2026-03-14 15:29:12] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-14 15:29:12] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-14 15:29:12] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-14 15:29:12] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-14 15:29:13] [32minfo[39m: 📡 Event: clientReady
+[2026-03-14 15:29:13] [32minfo[39m: 🌐 Dashboard running at http://localhost:3000
+[2026-03-14 15:29:13] [32minfo[39m: 🚀 Bot đã khởi động!
+[2026-03-14 15:29:13] [32minfo[39m: ✅ Bot online: dev001#3655
+[2026-03-14 15:29:14] [32minfo[39m: ✅ Registered 10 slash commands
+[2026-03-14 15:29:14] [32minfo[39m: 🕐 Cron jobs scheduled
+[2026-03-14 15:31:21] [32minfo[39m: Waiting bank transfer: DH69881390 - Amount: 20000
+[2026-03-14 15:31:59] [32minfo[39m: Signature check: expected e80650bff2f23481cd6a6328a782ba0a97937a835c5b9f1b7ab637db77e421ce, received e80650bff2f23481cd6a6328a782ba0a97937a835c5b9f1b7ab637db77e421ce
+[2026-03-14 15:31:59] [32minfo[39m: Casso payment confirmed: DH69881390 - 20000đ - Transaction ID: 234524545678
+[2026-03-14 15:31:59] [32minfo[39m: Casso webhook processed: order ORD-1773469881390
+[2026-03-14 15:32:01] [32minfo[39m: Ticket TKT-1773469920602-1 created for .vnuh
+[2026-03-14 15:32:01] [32minfo[39m: Delivered: ACC-1773469817814-f385ba → .vnuh
+[2026-03-14 15:43:43] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-14 15:43:43] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-14 15:43:43] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-14 15:43:43] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-14 15:43:43] [32minfo[39m: 📡 Event: clientReady
+[2026-03-14 15:43:43] [32minfo[39m: 🌐 Dashboard running at http://localhost:3000
+[2026-03-14 15:43:44] [32minfo[39m: ✅ Bot online: dev001#3655
+[2026-03-14 15:43:44] [32minfo[39m: 🚀 Bot đã khởi động!
+[2026-03-14 15:43:45] [32minfo[39m: ✅ Registered 10 slash commands
+[2026-03-14 15:43:45] [32minfo[39m: 🕐 Cron jobs scheduled
+[2026-03-14 15:58:54] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-14 15:58:54] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-14 15:58:54] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-14 15:58:54] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-14 15:58:54] [32minfo[39m: 📡 Event: clientReady
+[2026-03-14 15:58:54] [32minfo[39m: 🌐 Dashboard running at http://localhost:3000
+[2026-03-14 15:58:55] [32minfo[39m: 🚀 Bot đã khởi động!
+[2026-03-14 15:58:55] [32minfo[39m: ✅ Bot online: dev001#3655
+[2026-03-14 15:58:56] [32minfo[39m: ✅ Registered 10 slash commands
+[2026-03-14 15:58:56] [32minfo[39m: 🕐 Cron jobs scheduled
+[2026-03-14 16:00:16] [32minfo[39m: Discord bot restarted from dashboard control
+[2026-03-14 16:01:08] [33mwarn[39m: Discord bot stopped from dashboard control
+[2026-03-14 16:04:13] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-14 16:04:13] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-14 16:04:13] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-14 16:04:13] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-14 16:04:13] [32minfo[39m: 📡 Event: clientReady
+[2026-03-14 16:04:13] [32minfo[39m: 🌐 Dashboard running at http://localhost:3000
+[2026-03-14 16:04:14] [32minfo[39m: ✅ Bot online: dev001#3655
+[2026-03-14 16:04:14] [32minfo[39m: 🚀 Bot đã khởi động!
+[2026-03-14 16:04:14] [32minfo[39m: ✅ Registered 10 slash commands
+[2026-03-14 16:04:15] [32minfo[39m: 🕐 Cron jobs scheduled
+[2026-03-14 16:06:19] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-14 16:06:19] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-14 16:06:19] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-14 16:06:19] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-14 16:06:19] [32minfo[39m: 📡 Event: clientReady
+[2026-03-14 16:06:19] [32minfo[39m: 🌐 Dashboard running at http://localhost:3000
+[2026-03-14 16:06:20] [32minfo[39m: 🚀 Bot đã khởi động!
+[2026-03-14 16:06:20] [32minfo[39m: ✅ Bot online: dev001#3655
+[2026-03-14 16:06:21] [32minfo[39m: ✅ Registered 10 slash commands
+[2026-03-14 16:06:21] [32minfo[39m: 🕐 Cron jobs scheduled
+[2026-03-14 16:12:16] [32minfo[39m: 📋 Loaded 10 commands
+[2026-03-14 16:12:16] [32minfo[39m: 📡 Event: guildMemberAdd
+[2026-03-14 16:12:16] [32minfo[39m: 📡 Event: interactionCreate
+[2026-03-14 16:12:16] [32minfo[39m: 📡 Event: messageCreate
+[2026-03-14 16:12:16] [32minfo[39m: 📡 Event: clientReady
+[2026-03-14 16:12:16] [32minfo[39m: 🌐 Dashboard running at http://localhost:3000
+[2026-03-14 16:12:18] [32minfo[39m: ✅ Bot online: dev001#3655
+[2026-03-14 16:12:18] [32minfo[39m: 🚀 Bot đã khởi động!
+[2026-03-14 16:12:18] [32minfo[39m: ✅ Registered 10 slash commands
+[2026-03-14 16:12:19] [32minfo[39m: 🕐 Cron jobs scheduled
+[2026-03-14 16:12:58] [33mwarn[39m: Discord bot stopped from dashboard control
+[2026-03-14 16:13:46] [32minfo[39m: Discord bot restarted from dashboard control
+[2026-03-14 16:16:48] [32minfo[39m: Waiting bank transfer: DH72607748 - Amount: 20000
+[2026-03-14 16:17:01] [32minfo[39m: Signature check: expected 91026681c7beed14b7be191c6ac15851dbfce48b4ad4980ea5891ce1eb93d7bd, received 91026681c7beed14b7be191c6ac15851dbfce48b4ad4980ea5891ce1eb93d7bd
+[2026-03-14 16:17:01] [32minfo[39m: Casso payment confirmed: DH72607748 - 20000đ - Transaction ID: 234524545678
+[2026-03-14 16:17:01] [32minfo[39m: Casso webhook processed: order ORD-1773472607748
+[2026-03-14 16:17:03] [32minfo[39m: Ticket TKT-1773472622431-1 created for .vnuh
+[2026-03-14 16:17:03] [32minfo[39m: Delivered: ACC-1773469817814-d3d114 → .vnuh
+[2026-03-14 16:23:12] [31merror[39m: chargeCard error:
+[2026-03-14 16:23:55] [33mwarn[39m: Discord bot stopped from dashboard control
