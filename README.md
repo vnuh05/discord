@@ -98,21 +98,9 @@ Repo hiện đang có file `.env` trong thư mục gốc. Nếu muốn cấu hì
 Ví dụ tối thiểu:
 
 ```env
-DISCORD_TOKEN=your_bot_token
-CLIENT_ID=your_application_id
-GUILD_ID=your_guild_id
 
-SHOP_CHANNEL_ID=channel_id_shop
-LOG_CHANNEL_ID=channel_id_log
-NOTIFY_CS_CHANNEL_ID=channel_id_notify_cs
-TICKET_CATEGORY_ID=category_id_ticket
-REVIEW_CHANNEL_ID=channel_id_review
-ANNOUNCEMENT_CHANNEL_ID=channel_id_announcement
 
-CS_ROLE_ID=role_id_cs
-ADMIN_ROLE_ID=role_id_admin
-MOD_ROLE_ID=role_id_mod
-
+# Tier roles
 ROLE_BRONZE_ID=
 ROLE_BRONZE_MIN=200000
 ROLE_SILVER_ID=
@@ -122,23 +110,29 @@ ROLE_GOLD_MIN=1000000
 ROLE_DIAMOND_ID=
 ROLE_DIAMOND_MIN=5000000
 
+# Casso / bank transfer
 CASSO_API_KEY=your_casso_api_key
-BANK_ACCOUNT_NUMBER=your_bank_account
-BANK_NAME=MBBANK
+BANK_ACCOUNT_NUMBER=your_bank_account_number
+BANK_NAME=MBBank
 BANK_ID=MB
-BANK_ACCOUNT_NAME=SHOP BOT
+BANK_ACCOUNT_NAME=YOUR_ACCOUNT_NAME
 
+# Card charging API
 CARD_API_URL=https://api.thesieure.com/chargingws/v2
-CARD_API_PARTNER_ID=your_partner_id
-CARD_API_PARTNER_KEY=your_partner_key
+CARD_API_PARTNER_ID=your_card_partner_id
+CARD_API_PARTNER_KEY=your_card_partner_key
 
+# Dashboard
 DASHBOARD_PORT=3000
 DASHBOARD_SECRET=change_this_secret
 DASHBOARD_USERNAME=admin
-DASHBOARD_PASSWORD=admin123
+DASHBOARD_PASSWORD=change_this_password
 
+# Customer support settings
 CS_COMMISSION_PER_ORDER=7000
 CS_TICKET_TIMEOUT=300000
+
+
 ```
 
 ### 3. Chạy bot Discord
